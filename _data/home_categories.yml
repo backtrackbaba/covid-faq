@@ -1,0 +1,40 @@
+# Categories separated in sections
+- title: Basic Questions
+  subtitle:
+  category: setup
+  categories:
+
+    - permalink: /setup/basics/
+      title: Basic Setup
+      desc: Get started fast with installation and theme setup instructions
+      icon: cog
+
+    - permalink: /setup/content/
+      title: Managing Content
+      desc: Get help or tailor the theme to your specific requirements
+      icon: file-text
+
+    - permalink: /setup/features/
+      title: Theme Features
+      desc: Lean about all the theme options, features and how to use them
+      icon: settings
+
+    - permalink: /setup/translation/
+      title: Translation
+      desc: Lean about all the theme options, features and how to use them
+      icon: settings
+
+- title: Myth Busters
+  subtitle:
+  category: customization
+  categories:
+
+    - permalink: /customization/development/
+      title: Development
+      desc: Interactively engage professional total linkage whereas enterprise catalysts
+      icon: code
+
+    - permalink: /customization/help/
+      title: Sources & Help
+      desc: Interactively engage professional total linkage whereas enterprise catalysts
+      icon: question

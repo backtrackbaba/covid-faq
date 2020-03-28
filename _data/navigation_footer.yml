@@ -1,0 +1,10 @@
+# Footer navigation links
+
+- title: Home
+  url: /
+
+- title: Changelog
+  url: /changelog-timeline/
+
+- title: Contact
+  url: /contact/
