@@ -1,5 +1,5 @@
 ---
-layout: cookie
+layout: understanding
 title: Chocolate Chip
 image_path: https://upload.wikimedia.org/wikipedia/commons/9/9a/Choco_chip_cookie.jpg
 ---

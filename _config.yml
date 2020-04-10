@@ -132,7 +132,7 @@ collections:
     output:         false
   changelogs:
     output:         false
-  cookies:
+  understanding:
     output: true
 
 # Defaults

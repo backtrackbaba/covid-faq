@@ -1,0 +1,9 @@
+---
+layout: page
+title: Understanding
+---
+{% for understanding in site.understanding %}
+<div class="understanding">
+    <h2><a href="{{ understanding.url }}">{{ understanding.title }}</a></h2>
+</div>
+{% endfor %}
