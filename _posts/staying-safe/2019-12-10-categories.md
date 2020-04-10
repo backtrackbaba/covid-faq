@@ -1,7 +1,8 @@
 ---
 title: Creating post categories
 subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
-categories: [setup, features]
+categories: [staying-safe]
+tags: [staying-safe]
 author: evan
 ---
 

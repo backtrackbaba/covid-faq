@@ -134,6 +134,12 @@ collections:
     output:         false
   understanding:
     output: true
+  protecting-yourself:
+    output: true
+  medical-advice:
+    output: true
+  staying-safe:
+    output: true
 
 # Defaults
 defaults:

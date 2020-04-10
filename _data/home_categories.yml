@@ -8,21 +8,25 @@
       title: Understanding Corona
       desc: Get started by understanding what Corona is
       icon: virus
+      name: understanding
 
-    - permalink: /collections/protecting/
+    - permalink: /protecting-yourself/
       title: Protecting Yourself
       desc: Know how to protect yourself during this pandemic
       icon: girl-mask
+      name: protecting-yourself
 
-    - permalink: /setup/features/
+    - permalink: /medical-advice/
       title: Medical Advice
       desc: Quick medical advices
       icon: surgeon
+      name: medical-advice
 
-    - permalink: /setup/translation/
+    - permalink: /staying-safe/
       title: Staying Safe
       desc: Learn how you could stay safe
       icon: staying-safe
+      name: staying-safe
 
 #- title: Myth Busters
 #  subtitle:

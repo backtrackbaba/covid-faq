@@ -6,6 +6,7 @@ layout: default
     <div class="uk-container">
         {% for section in site.data.home_categories %}
         {% for item in section.categories %}
+
         {% if page.url contains item.permalink %}
         {% assign current_category = item %}
         <ul class="uk-breadcrumb">
@@ -31,7 +32,7 @@ layout: default
         {% endfor %}
         <div class="uk-margin-medium-top">
             {% for post in site.posts %}
-            {% if post.tags contains "understanding" %}
+            {% if post.tags contains "medical-advice" %}
 
             <div class="uk-card uk-card-category uk-card-default uk-card-hover uk-card-body uk-inline uk-border-rounded uk-width-1-1">
                 <a class="uk-position-cover" href="{{ post.url | relative_url }}"></a>
