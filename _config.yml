@@ -5,8 +5,8 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site title and description
-title:              Humans Against Corona
-description:        Customer helpdesk Jekyll theme.
+title:              CovidFAQ
+description:        FAQ related to Covid-19 or Coronavirus
 lang:               en
 
 # Site subpath, e.g. /blog
@@ -16,7 +16,7 @@ baseurl:            ""
 permalink:          /:categories/:slug/
 #permalink:          /:title/
 
-# Site base hostname & protocol, e.g. http://example.com
+# Site base hostname & protocol, e.g. http://example.coms
 url:                ""
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder

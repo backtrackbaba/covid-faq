@@ -112,6 +112,7 @@ DEPENDENCIES
   jekyll-livereload
   jekyll-paginate-v2
   jekyll-seo-tag
+  nokogiri (= 1.10.9)
   tzinfo-data
 
 RUBY VERSION
