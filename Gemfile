@@ -18,6 +18,9 @@ gem "jekyll", "3.6.3"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 
+# Adding Jekyll Admin
+gem 'jekyll-admin', group: :jekyll_plugins
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
