@@ -3,7 +3,7 @@
   "lang": "English",
   "name": "CovidFAQ",
   "scope": "/",
-  "display": "fullscreen",
+  "display": "standalone",
   "start_url": "https://covidfaq.net/",
   "short_name": "CovidFAQ",
   "theme_color": "#667eea",
