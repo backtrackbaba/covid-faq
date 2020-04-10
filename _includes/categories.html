@@ -18,7 +18,7 @@
                 <div class="uk-grid-small" data-uk-grid>
                   <div class="uk-width-auto uk-text-primary uk-flex uk-flex-middle">
                     {% if item.icon %}
-                      <span data-uk-icon="icon: {{ item.icon }}; ratio: 2.6"></span>
+                       {% svg "/uploads/images/icons/{{ item.icon }}.svg" width=100 foo="bar" %}
                     {% endif %}
                   </div>
                   <div class="uk-width-expand">

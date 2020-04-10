@@ -1,40 +1,40 @@
 # Categories separated in sections
 - title: Basic Questions
   subtitle:
-  category: setup
+  category: asd
   categories:
 
-    - permalink: /setup/basics/
-      title: Basic Setup
-      desc: Get started fast with installation and theme setup instructions
-      icon: cog
+    - permalink: /understanding/
+      title: Understanding Corona
+      desc: Get started by understanding what Corona is
+      icon: virus
 
-    - permalink: /setup/content/
-      title: Managing Content
-      desc: Get help or tailor the theme to your specific requirements
-      icon: file-text
+    - permalink: /collections/protecting/
+      title: Protecting Yourself
+      desc: Know how to protect yourself during this pandemic
+      icon: girl-mask
 
     - permalink: /setup/features/
-      title: Theme Features
-      desc: Lean about all the theme options, features and how to use them
-      icon: settings
+      title: Medical Advice
+      desc: Quick medical advices
+      icon: surgeon
 
     - permalink: /setup/translation/
-      title: Translation
-      desc: Lean about all the theme options, features and how to use them
-      icon: settings
+      title: Staying Safe
+      desc: Learn how you could stay safe
+      icon: staying-safe
 
-- title: Myth Busters
-  subtitle:
-  category: customization
-  categories:
-
-    - permalink: /customization/development/
-      title: Development
-      desc: Interactively engage professional total linkage whereas enterprise catalysts
-      icon: code
-
-    - permalink: /customization/help/
-      title: Sources & Help
-      desc: Interactively engage professional total linkage whereas enterprise catalysts
-      icon: question
+#- title: Myth Busters
+#  subtitle:
+#  category: customization
+#  categories:
+#
+#    - permalink: /customization/development/
+#      title: Development
+#      desc: Interactively engage professional total linkage whereas enterprise catalysts
+#      icon: virus
+#
+#    - permalink: /customization/help/
+#      title: Sources & Help
+#      desc: Interactively engage professional total linkage whereas enterprise catalysts
+#      icon: virus

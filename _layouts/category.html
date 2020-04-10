@@ -17,7 +17,7 @@ layout: default
           </ul>
           <div class="uk-grid-small" data-uk-grid>
             <div class="uk-width-auto uk-text-primary">
-              <span class="uk-margin-xsmall-top" data-uk-icon="icon: {{ item.icon }}; ratio: 2.6"></span>
+              {% svg "/uploads/images/icons/{{ item.icon }}.svg" width=100 foo="bar" %}
             </div>
             <div class="uk-width-expand">
               <h1 class="uk-article-title uk-margin-remove">{{ item.title }}</h1>

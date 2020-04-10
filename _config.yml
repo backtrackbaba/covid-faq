@@ -5,7 +5,7 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site title and description
-title:              Guia
+title:              Humans Against Corona
 description:        Customer helpdesk Jekyll theme.
 lang:               en
 
@@ -13,7 +13,8 @@ lang:               en
 baseurl:            ""
 
 # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
-permalink:          /:categories/:title/
+permalink:          /:categories/:slug/
+#permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
 url:                ""
@@ -23,58 +24,58 @@ logo:
 
 # Default author settings
 author:
-    name:           Pete Seth
-    title:          Lead Developer
-    avatar:         https://via.placeholder.com/80x80
+  name:           Pete Seth
+  title:          Lead Developer
+  avatar:         https://via.placeholder.com/80x80
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
-    john:
-      name:         John Brown
-      title:        Support
-      avatar:       https://via.placeholder.com/80x80
-    evan:
-      name:         Evan Wells
-      title:        Support
-      avatar:       https://via.placeholder.com/80x80
-    sara:
-      name:         Sara Galen
-      title:        Lead Developer
-      avatar:       https://via.placeholder.com/80x80
-    alex:
-      name:         Alex Koch
-      title:        Design Engineer
-      avatar:       https://via.placeholder.com/80x80
-    daniel:
-      name:         Daniel Shultz
-      title:        Developer
-      avatar:       https://via.placeholder.com/80x80
-    tom:
-      name:         Tom Farrell
-      title:        Developer
-      avatar:       https://via.placeholder.com/80x80
+  sid:
+    name:         Dr Siddharth Ramachandran
+    title:        Dr
+    avatar:       https://via.placeholder.com/80x80
+  evan:
+    name:         Evan Wells
+    title:        Support
+    avatar:       https://via.placeholder.com/80x80
+  sara:
+    name:         Sara Galen
+    title:        Lead Developer
+    avatar:       https://via.placeholder.com/80x80
+  alex:
+    name:         Alex Koch
+    title:        Design Engineer
+    avatar:       https://via.placeholder.com/80x80
+  daniel:
+    name:         Daniel Shultz
+    title:        Developer
+    avatar:       https://via.placeholder.com/80x80
+  tom:
+    name:         Tom Farrell
+    title:        Developer
+    avatar:       https://via.placeholder.com/80x80
 
 # Social icons displayed in footer
 social:
-    email:
-    website:
-    facebook:       https://www.facebook.com/
-    flickr:
-    dribbble:
-    github:
-    googleplus:
-    instagram:      https://www.instagram.com/
-    linkedin:
-    pinterest:
-    twitter:        https://twitter.com/
-    vimeo:          https://vimeo.com/
-    youtube:
+  email:
+  website:
+  facebook:       https://www.facebook.com/
+  flickr:
+  dribbble:
+  github:
+  googleplus:
+  instagram:      https://www.instagram.com/
+  linkedin:
+  pinterest:
+  twitter:        https://twitter.com/
+  vimeo:          https://vimeo.com/
+  youtube:
 
 # Share button
 share:
-    post:           true # Display share buttons on a post page
-    twitter:        username # Enable by adding Twitter handle
-    facebook:       true # Enable by setting true (Facebook handle not required)
+  post:           true # Display share buttons on a post page
+  twitter:        username # Enable by adding Twitter handle
+  facebook:       true # Enable by setting true (Facebook handle not required)
 
 header:
   image: https://jekyll-theme-guia.netlify.com/uploads/header.jpg
@@ -84,11 +85,11 @@ header:
 
 # Default footer image settings
 footer:
-    copyright:      Made by a <a href="https://drifter.works/">drifter</a> in Antigua, Guatemala.
+  copyright:      Made by a <a href="https://drifter.works/">drifter</a> in Antigua, Guatemala.
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
-    shortname:      # 1234
+  shortname:      # 1234
 
 # Google analytics code, get your code here https://www.google.com/analytics/
 google_analytics:
@@ -116,6 +117,8 @@ gems:
   - jekyll-gist
   - jekyll-avatar
   - jekyll-paginate-v2
+  - jekyll-inline-svg
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -129,6 +132,8 @@ collections:
     output:         false
   changelogs:
     output:         false
+  cookies:
+    output: true
 
 # Defaults
 defaults:
@@ -144,3 +149,6 @@ defaults:
       type:         pages
     values:
       layout:       page
+
+svg:
+  optimize: true

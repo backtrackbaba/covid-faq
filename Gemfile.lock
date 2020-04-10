@@ -30,6 +30,9 @@ GEM
       jekyll (~> 3.3)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
+    jekyll-inline-svg (1.1.4)
+      jekyll (>= 3.3, < 5.0)
+      svg_optimizer (~> 0.2.5)
     jekyll-livereload (0.2.2)
       em-websocket (~> 0.5)
       jekyll (~> 3.0)
@@ -47,7 +50,10 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
+    mini_portile2 (2.4.0)
     multipart-post (2.1.1)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
     octokit (4.18.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -67,6 +73,8 @@ GEM
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
+    svg_optimizer (0.2.5)
+      nokogiri
 
 PLATFORMS
   ruby
@@ -76,13 +84,14 @@ DEPENDENCIES
   jekyll-avatar
   jekyll-feed (~> 0.6)
   jekyll-gist
+  jekyll-inline-svg
   jekyll-livereload
   jekyll-paginate-v2
   jekyll-seo-tag
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.6.0p0
+   ruby 2.7.0p0
 
 BUNDLED WITH
    2.1.4
