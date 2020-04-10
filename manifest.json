@@ -9,84 +9,84 @@
   "theme_color": "#667eea",
   "description": "FAQ related to Covid-19 or Coronavirus",
   "orientation": "any",
-  "background_color": "transparent",
+  "background_color": "#667eea",
   "related_applications": [],
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "44x44"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "48x48"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "1240x600"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "300x300"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "150x150"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "88x88"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "24x24"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "50x50"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "620x300"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "192x192"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "144x144"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "96x96"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "72x72"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "36x36"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "1024x1024"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "180x180"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "152x152"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "120x120"
     },
     {
-      "src": "https://covidfaq.net/uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
+      "src": "uploads/images/logo/covidapi-logo-wo-text-tpnt.png",
       "sizes": "76x76"
     }
   ],
