@@ -1,13 +1,14 @@
 ---
 layout: category
-permalink: /setup/content/
+permalink: /collections/basics/
 pagination: 
   enabled: true
   permalink: /:num/
   categories:
     values:
-      - setup
-      - content
+      - basics
     matching: all
+  # sort_field: 'title'
+  # sort_reverse: false
 ---
 
