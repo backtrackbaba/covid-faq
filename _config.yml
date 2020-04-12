@@ -86,7 +86,7 @@ header:
 
 # Default footer image settings
 footer:
-  copyright:      Made by a <a href="https://drifter.works/">drifter</a> in Antigua, Guatemala.
+  copyright:      Made by with ❤️ by <a href="https://linkedin.com" target="_blank">Saiprasad Balasubramanian</a>
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 #disqus:
@@ -129,8 +129,8 @@ sass:
   style:            compressed
 
 collections:
-  #  faqs:
-  #    output:         false
+  faqs:
+    output:         false
   #  changelogs:
   #    output:         false
   understanding:
