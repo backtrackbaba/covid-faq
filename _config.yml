@@ -17,7 +17,7 @@ permalink:          /:categories/:slug/
 #permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.coms
-url:                ""
+url: "https://covidfaq.net"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
 logo:
@@ -120,6 +120,7 @@ gems:
   - jekyll-avatar
   - jekyll-paginate-v2
   - jekyll-inline-svg
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
