@@ -120,7 +120,6 @@ gems:
   - jekyll-avatar
   - jekyll-paginate-v2
   - jekyll-inline-svg
-  - jekyll-sitemap
 
 exclude:
   - Gemfile
