@@ -55,8 +55,8 @@ sitemap: false
     <!--   Posts Start   -->
     {% for post in site.posts %}
     <url>
-        <loc>{{ page.url | absolute_url }}</loc>
-        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        <loc>{{ post.url | absolute_url }}</loc>
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
         <priority>0.95</priority>
     </url>
     {% endfor %}
