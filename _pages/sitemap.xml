@@ -10,7 +10,7 @@ sitemap: false
     <!--   Pages Start   -->
     <url>
         <loc>{{ site.url }}</loc>
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        <lastmod>{{ 'now' | date: "%Y-%m-%d %H:%M" | date_to_xmlschema }}</lastmod>
         <priority>1</priority>
     </url>
 
