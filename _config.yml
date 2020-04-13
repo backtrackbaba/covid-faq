@@ -106,7 +106,7 @@ footer:
 #  shortname:      # 1234
 
 # Google analytics code, get your code here https://www.google.com/analytics/
-google_analytics:
+google_analytics: UA-46861272-8
 
 # Pagination Settings
 pagination:
