@@ -1,0 +1,11 @@
+---
+layout: post
+title: How can people help stop stigma related to COVID-19?
+tags: ["understanding"]
+categories: ["understanding"]
+author: sai
+---
+
+People can fight stigma by providing social support in situations where you notice this is occurring. Stigma affects the emotional or [mental health](https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/reducing-stigma.html) of stigmatized groups and the communities they live in. Stopping stigma is important to making communities and community members resilient. See [resources on mental health and coping during COVID-19](https://www.cdc.gov/coronavirus/2019-ncov/about/coping.html). Everyone can help stop stigma related to COVID-19 by [knowing the facts](https://www.cdc.gov/coronavirus/2019-ncov/about/share-facts.html) and sharing them with others in your community.
+
+**Source: [CDC, USA](https://www.cdc.gov/coronavirus/2019-ncov/faq.html)**
