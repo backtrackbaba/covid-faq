@@ -1,7 +1,6 @@
 ---
 layout: post
-title: While school’s out, limit time with older adults, including relatives, and
-  people with chronic medical conditions.
+title: While school’s out, limit time with older adults, including relatives, and people with chronic medical conditions.
 categories: [staying-safe]
 tags: [staying-safe]
 author: sai
