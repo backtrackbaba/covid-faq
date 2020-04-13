@@ -1,15 +1,64 @@
 ---
 layout: null
+sitemap: false
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!--   Pages Start   -->
+    <url>
+        <loc>{{ site.url }}</loc>
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        <priority>1</priority>
+    </url>
+
+    <url>
+        <loc>{{ site.url }}/about/</loc>
+        <lastmod>{{ date | date_to_xmlschema }}</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>{{ site.url }}/contact/</loc>
+        <lastmod>{{ date | date_to_xmlschema }}</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>{{ site.url/medical-advice/ }}</loc>
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>{{ site.url/protecting-yourself/ }}</loc>
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>{{ site.url/staying-safe/ }}</loc>
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>{{ site.url/understanding/ }}</loc>
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        <priority>0.9</priority>
+    </url>
+    <!--   Pages End   -->
+
+
+    <!--   Posts Start   -->
     {% for post in site.posts %}
     <url>
-        <loc>{{ post.url | absolute_url }}</loc>
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        <loc>{{ page.url | absolute_url }}</loc>
+        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        <priority>0.95</priority>
     </url>
     {% endfor %}
+    <!--   Posts End   -->
 </urlset>

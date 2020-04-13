@@ -3,6 +3,7 @@ layout: page
 title: Thanks
 permalink: /thanks/
 width: small
+sitemap: false
 ---
 
 ### This is a redirect page for contact form
