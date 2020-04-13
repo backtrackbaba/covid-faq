@@ -24,17 +24,24 @@ logo:
 
 # Default author settings
 author:
-  name:           Saiprasad Balasubramanian
-  title:          Lead Developer
-  avatar:         https://via.placeholder.com/80x80
+  name: Saiprasad Balasubramanian
+  title: Lead Developer
+  avatar: "images/authors/sai.png"
   twitter: sai_cosmo
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
   sid:
-    name:         Dr Siddharth Ramachandran
-    title:        Dr
-    avatar:       https://via.placeholder.com/80x80
+    name: Dr Siddharth Ramachandran
+    title: Dr
+    avatar: https://via.placeholder.com/80x80
+
+  sai:
+    name: Saiprasad Balasubramanian
+    title: Software Developer
+    avatar: "images/authors/sai.png"
+    twitter: sai_cosmo
+
   evan:
     name:         Evan Wells
     title:        Support
@@ -92,7 +99,7 @@ header:
 
 # Default footer image settings
 footer:
-  copyright:      Made by with ❤️ by <a href="https://linkedin.com" target="_blank">Saiprasad Balasubramanian</a>
+  copyright:      Made by with ❤️ by <a href="https://www.linkedin.com/in/saiprasadbala" target="_blank" rel="noreferrer">Saiprasad Balasubramanian</a>
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 #disqus:
