@@ -99,7 +99,7 @@ header:
 
 # Default footer image settings
 footer:
-  copyright:      Made by with ❤️ by <a href="https://www.linkedin.com/in/saiprasadbala" target="_blank" rel="noreferrer">Saiprasad Balasubramanian</a>
+  copyright:      Made with ❤️ by <a href="https://www.linkedin.com/in/saiprasadbala" target="_blank" rel="noreferrer">Saiprasad Balasubramanian</a>
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 #disqus:
@@ -146,14 +146,14 @@ collections:
     output:         false
   #  changelogs:
   #    output:         false
-  understanding:
-    output: true
-  protecting-yourself:
-    output: true
-  medical-advice:
-    output: true
-  staying-safe:
-    output: true
+#  understanding:
+#    output: true
+#  protecting-yourself:
+#    output: true
+#  medical-advice:
+#    output: true
+#  staying-safe:
+#    output: true
 
 # Defaults
 defaults:
