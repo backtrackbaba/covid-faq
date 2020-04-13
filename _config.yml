@@ -132,6 +132,7 @@ gems:
   - jekyll-avatar
   - jekyll-paginate-v2
   - jekyll-inline-svg
+  - jekyll-purgecss
 
 exclude:
   - Gemfile
@@ -172,3 +173,5 @@ defaults:
 
 svg:
   optimize: true
+
+css_dir: "assets/css"
