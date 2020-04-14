@@ -17,13 +17,13 @@ header:
 {% include faqs.html 
   multiple="true" 
   title="Frequently asked questions" 
-  category="presale" 
-  subtitle="Find quicke answers to frequent pre-sale questions asked by customers" 
+  category="covid-faqs" 
+  subtitle="Find answers to the most asked questions about Covid19." 
   section="muted" 
 %}
 
 {% include team.html 
-  authors="evan, john, sara, alex, tom, daniel" 
+  authors="sai, harsh" 
   title="We are here to help" 
   subtitle="Our team is just an email away ready to answer your questions" 
   section="default" 

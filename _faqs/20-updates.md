@@ -1,6 +1,6 @@
 ---
 title: Are updates and bug fixes included in the cost of the item?
-categories: [presale]
+categories: [covid-faqs]
 ---
 
 Regardless of whether you have support or not:
