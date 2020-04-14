@@ -2,8 +2,9 @@
 title: Contact Us
 permalink: /contact/
 ---
-Theme includes integration for two popular contact form providers Formspree and Kwes, both have free plans with some limitations, see [Formspree](https://formspree.io/) and [Kwes](https://kwes.io/) for more details. Form name and subject fields can be disabled.
 
-### Formspree Contact Form
+#### Have a feedback or query? Found an inaccurate FAQ?
+
+Fill up this quick form and our team will get back to you ASAP
 
 {% include formspree.html email="mvoblzbe" redirect="/thanks/" name="true" subject="true" %}
