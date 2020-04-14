@@ -24,7 +24,7 @@ logo: images/logo/covidapi-logo-wo-text-tpnt.png
 
 logo-specs:
   desktop:
-    width : 50px
+    width: 50px
     title: true
   mobile:
     width: 30px

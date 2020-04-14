@@ -43,26 +43,30 @@ layout: default
                     {% endif %}
                 </article>
                 <script>
-                    // Table of contents scroll to
-                    UIkit.scroll('#markdown-toc a', {
+                    window.addEventListener('load', function () {
+                         // Table of contents scroll to
+                        UIkit.scroll('#markdown-toc a', {
                         duration: 400,
                         offset: 40
                     });
+                    })
                 </script>
                 <script type="application/ld+json">
                     {
                         "@context": "https://schema.org",
                         "@type": "FAQPage",
-                        "mainEntity":
-                            {
-                                "@type": "Question",
-                                "name": {{ page.title | jsonify }},
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": {{ content | strip_newlines | jsonify }}
-                                }
-                            }
-
+                        "mainEntity": {
+                            "@type": "Question",
+                            "name": {{
+                        page.title
+                        |
+                        jsonify
+                    }},
+                    "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": {{content | strip_newlines | jsonify}}
+                    }
+                    }
                     }
                 </script>
             </div>
