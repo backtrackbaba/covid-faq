@@ -33,6 +33,6 @@ header:
   title="Didn't find an answer?" 
   button_text="Contact Us" 
   button_url="/contact/" 
-  subtitle="Get in touch with us for details on setup and additional custom services pricing" 
+  subtitle="Have a feedback or query? Found an inaccurate FAQ?" 
   section="muted"
 %}

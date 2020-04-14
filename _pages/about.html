@@ -1,7 +1,38 @@
 ---
 layout: page
-title: About
+title: Humans Against Corona
 permalink: /about/
 ---
+<style>
+    #div-justify{
+      text-align: justify;
+      text-justify: inter-word;
+    }
+</style>
+<div id="div-justify">
+After hearing about the tragic deaths and misfortunes that happened with the people who tried to replicate or try out the therapies that
+were circulated via the so called <b>WhatsApp University</b> we decided to create a platform which provides all the answers to the questions
+that you and everyone has related to Covid19 and distinguid between facts and fake news.
+<br><br>
+The information is accumulated from legitimate sources such as World Health Organization, Centers for  Disease Control and Prevenation USA,
+Ministry of Health and Family Welfare India. 
+<br><br>
+We are a team of Doctors and Engineers determined to fight against Covid19 (Corona Virus) by providing the right information.
+<br><br>
+You can also do your part by praticing Social Distancing, Staying at home with your families, helping out those in need and
+by not believing and spreding fake news.
+</div>
 
-We are a team of Doctors and Engineers determined to provide answers related to Covid19.
+{% include team.html 
+    authors="sai, harsh" 
+    title="Our Team" 
+    section="default" 
+  %}
+  
+  {% include cta.html 
+    title="Didn't find an answer?" 
+    button_text="Contact Us" 
+    button_url="/contact/" 
+    subtitle="Have a feedback or query? Found an inaccurate FAQ?" 
+    section="default"
+  %}
