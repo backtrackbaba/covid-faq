@@ -41,6 +41,12 @@ authors:
     title: Software Developer
     avatar: "images/authors/sai.png"
     twitter: sai_cosmo
+  
+  harsh:
+    name: Harsh Jain
+    title: Software Developer
+    avatar: "images/authors/harsh.png"
+    twitter: hrkj_18
 
   evan:
     name:         Evan Wells
