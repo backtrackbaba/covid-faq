@@ -33,6 +33,7 @@ group :jekyll_plugins do
    gem 'jekyll-livereload'
    gem 'jekyll-avatar'
    gem 'jekyll-inline-svg'
+   gem 'jekyll-purgecss'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

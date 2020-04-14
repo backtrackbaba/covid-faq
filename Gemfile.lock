@@ -45,6 +45,7 @@ GEM
       jekyll (~> 3.0)
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
+    jekyll-purgecss (0.3.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.6.1)
@@ -120,6 +121,7 @@ DEPENDENCIES
   jekyll-inline-svg
   jekyll-livereload
   jekyll-paginate-v2
+  jekyll-purgecss
   jekyll-seo-tag
   nokogiri (= 1.10.9)
   tzinfo-data

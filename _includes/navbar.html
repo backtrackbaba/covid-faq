@@ -9,7 +9,7 @@
 			<div class="uk-navbar-left">
 				<a class="uk-navbar-item uk-logo uk-visible@m" href="{{ "/" | relative_url }}">{% if site.logo %}<img
 						src="{{ site.uploads | absolute_url }}{{ site.logo }}"
-						alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
+						alt="{{ site.title | escape }}"{% if site.logo-specs.desktop.width %}width={{site.logo-specs.desktop.width}}{% endif %} >{% if site.logo-specs.desktop.title %} <span class="uk-logo uk-text-light" style="padding-left: 15px;">{{ site.title | escape }}</span> {% endif %}{% else %}{{ site.title | escape }}{% endif %}</a>
 				{% if site.data.translation[site.lang].mobile_nav_catgories %}
 				<a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-posts" data-uk-toggle><span
 						data-uk-navbar-toggle-icon></span> <span
@@ -75,9 +75,10 @@
 			</ul>
 		</div>
 		<div class="uk-navbar-center uk-hidden@m">
-			<a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">{% if site.logo %}<img
+			<a class="uk-navbar-item uk-logo" style="padding: 0 " href="{{ "/" | relative_url }}">{% if site.logo %}<img
 					src="{{ site.uploads | absolute_url }}{{ site.logo }}"
-					alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
+					alt="{{ site.title | escape }}" {% if site.logo-specs.mobile.width %}width={{site.logo-specs.mobile.width}}{% endif %}>{% else %}{{ site.title | escape }}{% endif %}</a>
+					{% if site.logo-specs.mobile.title %} <span class="uk-logo uk-text-light" style="padding-left: 5px;">{{ site.title | escape }}</span> {% endif %}
 		</div>
 		<div class="uk-navbar-right">
 			<ul class="uk-navbar-nav uk-visible@m">

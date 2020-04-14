@@ -2,13 +2,9 @@
 title: Contact Us
 permalink: /contact/
 ---
-If you have any questions which are not answered or you think any answer needs some correction please reach out to us.
 
-### Contact Form
+#### Have a feedback or query? Found an inaccurate FAQ?
 
-{% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="true" subject="true" %}
+Fill up this quick form and our team will get back to you ASAP
 
-<br>
-<!--Kwes Contact Form -->
-
-<!-- {% include kwes.html key="00000" redirect="/thanks/" name="true" subject="true" %} -->
+{% include formspree.html email="mvoblzbe" redirect="/thanks/" name="true" subject="true" %}

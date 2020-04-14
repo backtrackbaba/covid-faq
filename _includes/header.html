@@ -43,7 +43,7 @@
             <div class="hero-search{% if page.header.title %} uk-margin-medium-top{% else %} uk-margin-bottom{% endif %}">
 
                 <p class="uk-text-lead uk-text-center{% if header_color == 'light' %} uk-light{% endif %}">Search from
-                    over {{site.posts | size}} FAQ's from reliable sources</p>
+                    over {{ site.posts | size }} FAQ from reliable sources</p>
                 <!-- Html Elements for Search -->
                 <div class="uk-position-relative">
                     <div class="{% if header_color == 'light' %} uk-light{% endif %}">
@@ -62,14 +62,16 @@
                     <ul id="search-hero-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
                 </div>
                 <script>
-                    SimpleJekyllSearch({
-                        searchInput: document.getElementById('search-hero'),
-                        resultsContainer: document.getElementById('search-hero-results'),
-                        noResultsText: '<li class="no-results">{{ site.data.translation[site.lang].search_no_results | default: "No results found" }}</li>',
-                        searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
-                        json: "{{ '/search.json' | relative_url }}"
-                    });
-                    searchResults("search-hero");
+                    window.addEventListener('load', function () {
+                        SimpleJekyllSearch({
+                            searchInput: document.getElementById('search-hero'),
+                            resultsContainer: document.getElementById('search-hero-results'),
+                            noResultsText: '<li class="no-results">{{ site.data.translation[site.lang].search_no_results | default: "No results found" }}</li>',
+                            searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                            json: "{{ '/search.json' | relative_url }}"
+                        });
+                        searchResults("search-hero");
+                    })
                 </script>
             </div>
             {% endif %}

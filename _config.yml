@@ -20,7 +20,15 @@ permalink:          /:categories/:slug/
 url: "https://covidfaq.net"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo:
+logo: images/logo/covidapi-logo-wo-text-tpnt.png
+
+logo-specs:
+  desktop:
+    width: 50px
+    title: true
+  mobile:
+    width: 30px
+    title: true
 
 # Default author settings
 author:
@@ -105,7 +113,7 @@ header:
 
 # Default footer image settings
 footer:
-  copyright:      Made by with ❤️ by <a href="https://www.linkedin.com/in/saiprasadbala" target="_blank" rel="noreferrer">Saiprasad Balasubramanian</a>
+  copyright:      Made with ❤️ by <a href="https://www.linkedin.com/in/saiprasadbala" target="_blank" rel="noreferrer">Saiprasad Balasubramanian</a>
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 #disqus:
@@ -138,6 +146,7 @@ gems:
   - jekyll-avatar
   - jekyll-paginate-v2
   - jekyll-inline-svg
+  - jekyll-purgecss
 
 exclude:
   - Gemfile
@@ -152,14 +161,14 @@ collections:
     output:         false
   #  changelogs:
   #    output:         false
-  understanding:
-    output: true
-  protecting-yourself:
-    output: true
-  medical-advice:
-    output: true
-  staying-safe:
-    output: true
+#  understanding:
+#    output: true
+#  protecting-yourself:
+#    output: true
+#  medical-advice:
+#    output: true
+#  staying-safe:
+#    output: true
 
 # Defaults
 defaults:
@@ -178,3 +187,5 @@ defaults:
 
 svg:
   optimize: true
+
+css_dir: "assets/css"
