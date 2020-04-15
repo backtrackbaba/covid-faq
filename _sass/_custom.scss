@@ -1,16 +1,48 @@
-.div-justify{
-    text-align: justify;
-    text-justify: inter-word;
+.div-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.whatsapp {
+  color: #25D366;
+}
+
+.facebook {
+  color: #4267B2;
+}
+
+.twitter {
+  color: #1DA1F2;
+}
+
+#cookie-notice {
+  padding: 0.5rem 1rem;
+  display: none;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 2rem);
+  background: #E0E0E0;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#cookie-notice a {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  color: rgba(0, 0, 0, 1) !important;
+  text-decoration: underline;
+  text-decoration-color: #583ABC;
+}
+
+@media (max-width: 767px) {
+  #cookie-notice span {
+    display: block;
+    padding-top: 3px;
+    margin-bottom: 1rem;
   }
-  
-  .whatsapp {
-    color: #25D366;
+  #cookie-notice a {
+    position: relative;
+    bottom: 4px;
   }
-  
-  .facebook {
-    color: #4267B2;
-  }
-  
-  .twitter {
-    color: #1DA1F2;
-  }
+}
