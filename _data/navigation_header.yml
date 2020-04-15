@@ -10,16 +10,14 @@ right:
   - title: About
     url: /about/
 
+  - title: Sources
+    url: /sources/
+
+  - title: Disclaimer
+    url: /disclaimer/
+
   - title: Contact
     url: /contact/
-
-  # - title: Changelog
-  #   url: /contact/
-  #   button: default
-
-  # - title: Contact
-  #   url: /contact/
-  #   button: primary
 
   # - title: Changelog
   #   url: /contact/
