@@ -34,6 +34,7 @@ group :jekyll_plugins do
    gem 'jekyll-avatar'
    gem 'jekyll-inline-svg'
    gem 'jekyll-purgecss'
+   gem 'jekyll-target-blank'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
