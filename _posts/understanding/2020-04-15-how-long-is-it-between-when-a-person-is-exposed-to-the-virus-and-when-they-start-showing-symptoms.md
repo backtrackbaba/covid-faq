@@ -2,8 +2,8 @@
 layout: post
 title: How long is it between when a person is exposed to the virus and when they
   start showing symptoms?
-categories: [protecting-yourself]
-tags: [protecting-yourself]
+categories: [understanding]
+tags: [understanding]
 author: anish
 ---
 

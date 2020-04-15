@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Can COVID-19 affect brain function?
-tags: ["understanding"]
-categories: ["understanding"]
+tags: ["medical-advice"]
+categories: ["medical-advice"]
 author: anish
 ---
 

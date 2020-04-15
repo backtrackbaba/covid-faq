@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Can I catch the coronavirus by eating food handled or prepared by others?
-categories: [protecting-yourself]
-tags: [protecting-yourself]
+categories: [medical-advice]
+tags: [medical-advice]
 author: anish
 ---
 
