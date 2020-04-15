@@ -21,6 +21,24 @@ sitemap: false
     </url>
 
     <url>
+        <loc>{{ site.url }}/sources/</loc>
+        <lastmod>{{ 'now' | date: "%Y-%m-%d %H:%M" | date_to_xmlschema }}</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>{{ site.url }}/disclaimer/</loc>
+        <lastmod>{{ 'now' | date: "%Y-%m-%d %H:%M" | date_to_xmlschema }}</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>{{ site.url }}/privacy/</loc>
+        <lastmod>{{ 'now' | date: "%Y-%m-%d %H:%M" | date_to_xmlschema }}</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
         <loc>{{ site.url }}/contact/</loc>
         <lastmod>{{ 'now' | date: "%Y-%m-%d %H:%M" | date_to_xmlschema }}</lastmod>
         <priority>0.8</priority>
