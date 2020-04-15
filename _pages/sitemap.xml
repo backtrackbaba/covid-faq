@@ -74,7 +74,7 @@ sitemap: false
     {% for post in site.posts %}
     <url>
         <loc>{{ post.url | absolute_url }}</loc>
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        <lastmod>{{ 'now' | date: "%Y-%m-%d %H:%M" | date_to_xmlschema }}</lastmod>
         <priority>0.95</priority>
     </url>
     {% endfor %}
