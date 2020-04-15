@@ -164,6 +164,7 @@ defaults:
       type:         posts
     values:
       layout:       post
+      image: "images/logo/covidapi-logo-wo-text-tpnt.png"
   # _pages
   - scope:
       path:         ""
