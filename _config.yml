@@ -56,26 +56,12 @@ authors:
     avatar: "images/authors/harsh.png"
     twitter: hrkj_18
 
-  evan:
-    name:         Evan Wells
-    title:        Support
-    avatar:       https://via.placeholder.com/80x80
-  sara:
-    name:         Sara Galen
-    title:        Lead Developer
-    avatar:       https://via.placeholder.com/80x80
-  alex:
-    name:         Alex Koch
-    title:        Design Engineer
-    avatar:       https://via.placeholder.com/80x80
-  daniel:
-    name:         Daniel Shultz
-    title:        Developer
-    avatar:       https://via.placeholder.com/80x80
-  tom:
-    name:         Tom Farrell
-    title:        Developer
-    avatar:       https://via.placeholder.com/80x80
+  anish:
+    name: Anish Tipnis
+    title: Software Developer
+    avatar: "images/authors/anish.jpeg"
+    twitter: rusty3699
+
 
 # Social icons displayed in footer
 social:
