@@ -49,7 +49,7 @@ authors:
     title: Software Developer
     avatar: "images/authors/sai.png"
     twitter: sai_cosmo
-  
+
   harsh:
     name: Harsh Jain
     title: Software Developer
@@ -79,18 +79,18 @@ authors:
 
 # Social icons displayed in footer
 social:
-  email:
-  website:
-  facebook:       https://www.facebook.com/
+  email: team@covidfaq.net
+  website: https://covidfaq.net
+  facebook:
   flickr:
   dribbble:
   github: https://github.com/backtrackbaba/covid-faq
   googleplus:
-  instagram:      https://www.instagram.com/
+  instagram:
   linkedin:
   pinterest:
-  twitter:        https://twitter.com/
-  vimeo:          https://vimeo.com/
+  twitter:
+  vimeo:
   youtube:
 
 # Share button
