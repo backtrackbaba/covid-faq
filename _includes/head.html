@@ -10,7 +10,7 @@
   <meta name="theme-color" content="#667eea">
 
   {% seo %}
-  <meta property="og:image" content="{% if site.logo contains 'http' %}{{ site.logo }}{% else %}{{ site.uploads | absolute_url }}{{ site.logo }}{% endif %}"/>
+  <meta property="og:image" content="{{ site.uploads | absolute_url }}{{ site.og-image }}"/>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="shortcut icon" type="image/png" href="{{ "uploads/favicon.png" | relative_url }}" >
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">

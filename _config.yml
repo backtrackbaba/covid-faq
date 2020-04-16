@@ -21,6 +21,7 @@ url: "https://covidfaq.net"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
 logo: images/logo/covidapi-logo-wo-text-tpnt.png
+og-image: images/logo/covidfaq-logo-white-bg.jpg
 
 logo-specs:
   desktop:
@@ -170,7 +171,7 @@ defaults:
       type:         posts
     values:
       layout:       post
-      image: "images/logo/covidapi-logo-wo-text-tpnt.png"
+      image: "images/logo/covidfaq-logo-white-bg.jpg"
   # _pages
   - scope:
       path:         ""
