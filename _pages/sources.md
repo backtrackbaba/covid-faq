@@ -23,7 +23,7 @@ It is part of the U.N. Sustainable Development Group.
 
 The Ministry of Health and Family Welfare is an Indian government ministry charged with health policy in India. It is 
 also responsible for all government programs relating to family planning in India. The Minister of Health and Family 
-Welfare holds cabinet rank as a member of the Council of Ministers
+Welfare holds cabinet rank as a member of the Council of Ministers.
 
 [Link to FAQ Page](https://www.mohfw.gov.in/)
 
@@ -34,9 +34,31 @@ Welfare holds cabinet rank as a member of the Council of Ministers
 
 The Centers for Disease Control and Prevention is the leading national public health institute of the United States. It 
 is a United States federal agency, under the Department of Health and Human Services, and is headquartered in Atlanta, 
-Georgia. Wikipedia
+Georgia.
 
 [Link to FAQ Page](https://www.cdc.gov/coronavirus/2019-ncov/faq.html)
+
+---
+
+**Harvard Medical School, Boston, Massachusetts, USA**
+
+Harvard Medical School is the graduate medical school of Harvard University and is located in the Longwood Medical Area 
+of Boston, Massachusetts. Since the School was established in 1782, faculty members have improved human health by 
+innovating in their roles as physicians, mentors and scholars. They’ve piloted educational models, developed new 
+curricula to address emerging needs in health care, and produced thousands of leaders and compassionate caregivers who 
+are shaping the fields of science and medicine throughout the world with their expertise and passion.
+
+[Link to FAQ Page](https://www.health.harvard.edu/diseases-and-conditions/covid-19-basics)
+
+---
+
+**United Nations**
+
+The United Nations is an intergovernmental organization that aims to maintain international peace and security, develop 
+friendly relations among nations, achieve international cooperation, and be a center for harmonizing the actions of 
+nations.
+
+[Link to FAQ Page](https://www.un.org/en/coronavirus/covid-19-faqs)
 
 ---
 

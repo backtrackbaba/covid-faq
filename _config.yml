@@ -62,6 +62,12 @@ authors:
     avatar: "images/authors/anish.jpeg"
     twitter: rusty3699
 
+  kalpesh:
+    name: Kalpesh Rotkar
+    title: Volunteer
+    avatar: "images/authors/kalpesh.jpg"
+    twitter:
+
 
 # Social icons displayed in footer
 social:

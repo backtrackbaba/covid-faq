@@ -23,7 +23,7 @@ header:
 %}
 
 {% include team.html 
-  authors="sai, harsh" 
+  authors="sai, harsh, anish, kalpesh" 
   title="We are here to help" 
   subtitle="Our team is just an email away ready to answer your questions" 
   section="default" 
