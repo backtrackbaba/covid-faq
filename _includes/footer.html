@@ -39,28 +39,5 @@
   {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
     {% include smartlook.html %}
+    {% include pwa.html %}
   {% endif %}
-
-
-
-  <script>
-          // This is the service worker with the Advanced caching
-
-          // Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-
-          // Check compatibility for the browser we're running this in
-          if ("serviceWorker" in navigator) {
-            if (navigator.serviceWorker.controller) {
-              console.log("[PWA Builder] active service worker found, no need to register");
-            } else {
-              // Register the service worker
-              navigator.serviceWorker
-                .register("{{ site.url }}/pwabuilder-sw.js", {
-                  scope: "./"
-                })
-                .then(function (reg) {
-                  console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-                });
-            }
-          }
-  </script>
