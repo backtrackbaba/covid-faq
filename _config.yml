@@ -20,7 +20,7 @@ permalink:          /:categories/:slug/
 url: "https://covidfaq.net"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo: images/logo/covidapi-logo-wo-text-tpnt.png
+logo: images/logo/covidapi-logo-wo-text-tpnt-50.png
 og-image: images/logo/covidfaq-logo-white-bg.jpg
 
 logo-specs:

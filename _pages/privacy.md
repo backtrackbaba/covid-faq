@@ -7,10 +7,18 @@ permalink: /privacy/
 At CovidFAQ, your privacy is paramount to us!
 
 ### What tracking systems we use?
-We use Google Analytics as a tool to track the useage of users on the website. The only information that we collect via
+
+#### Google Analytics
+We use Google Analytics as a tool to track the usage of users on the website. The only information that we collect via
 this tool is general browsing data which include your Internet Protocol (IP) Address,  domain name, browser type, 
 operating system, and information such as the web site that referred you to us, the files you download, the pages you 
 visit, and the dates/times of those visits.
+
+To know more about how Google protects and processes your data click [here](https://privacy.google.com/businesses/compliance/)
+
+#### Smartlook
+We use SmartLook to understand and analyse the clicks and flow of our users. This helps us improve our user interface to
+cater along the lines of what the user looks for on the site.
 
 
 ### Why do we collect these information?
