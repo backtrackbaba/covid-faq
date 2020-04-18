@@ -27,17 +27,18 @@
       desc: Learn how you could stay safe
       icon: staying-safe
       name: staying-safe
-#- title: Myth Busters
-#  subtitle:
-#  category: customization
-#  categories:
-#
-#    - permalink: /myth-busters/
-#      title: Development
-#      desc: Interactively engage professional total linkage whereas enterprise catalysts
-#      icon: virus
-#
+
+- title: Myth Busters
+  subtitle: Heard of a crazy rumor on social media? We are here to bust those myths
+  category: myth-busters
+  categories:
+
+    - permalink: /myth-busters/
+      title: Development
+      desc: Interactively engage professional total linkage whereas enterprise catalysts
+      icon: fake-news-2
+
 #    - permalink: /customization/help/
 #      title: Sources & Help
 #      desc: Interactively engage professional total linkage whereas enterprise catalysts
-#      icon: virus
+#      icon: fake-news-2
