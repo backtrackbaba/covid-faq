@@ -4,7 +4,7 @@ layout: default
 
 <div class="uk-section uk-section-muted">
     <div class="uk-container">
-        {% for section in site.data.home_categories %}
+        {% for section in site.data.mb_categories %}
         {% for item in section.categories %}
         {% if page.url contains item.permalink %}
         <ul class="uk-breadcrumb">
@@ -32,13 +32,21 @@ layout: default
                     {% endif %}
                     <div class="uk-article-content">
 
-                        <div class="uk-card myth uk-card-body uk-align-center">
-                            <h3 class="uk-card-title uk-text-light">Myth</h3>
+                        {% if page.mb-type == "myth" %}
+
+                        <div class="uk-card myth uk-card-body uk-align-center uk-card-large">
+                            <h3 class="uk-h1 uk-text-center myth-text">Myth</h3>
                         </div>
-                        <div class="uk-card fact uk-card-body uk-align-center">
-                            <h2 class="uk-card-title uk-text-light uk-text-bold">Fact</h2>
+
+                        {% else %}
+
+                        <div class="uk-card fact uk-card-body uk-align-center uk-card-large">
+                            <h3 class="uk-h1 uk-text-center fact-text">Fact</h3>
                         </div>
+                        {% endif %}
+
                         {{ content }}
+
                         {% if site.share.post %}
                         {% include share.html %}
                         {% endif %}

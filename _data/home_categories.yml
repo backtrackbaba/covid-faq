@@ -28,15 +28,15 @@
       icon: staying-safe
       name: staying-safe
 
-- title: Myth Busters
-  subtitle: Heard of a crazy rumor on social media? We are here to bust those myths
-  category: myth-busters
-  categories:
-
-    - permalink: /myth-busters/
-      title: Development
-      desc: Interactively engage professional total linkage whereas enterprise catalysts
-      icon: fake-news-2
+#- title: Myth Busters
+#  subtitle: Heard of a crazy rumor on social media? We are here to bust those myths
+#  category: myth-busters
+#  categories:
+#
+#    - permalink: /myth-busters/
+#      title: Fact Check
+#      desc: Debunk rumors and uncover the truth behind the rumors floating around you.
+#      icon: fake-news-2
 
 #    - permalink: /customization/help/
 #      title: Sources & Help

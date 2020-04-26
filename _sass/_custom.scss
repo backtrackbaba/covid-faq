@@ -17,10 +17,33 @@
 
 .myth {
   background: #ef4036;
+  color: white;
+  border-radius: 25px;
+}
+
+.myth-icon {
+  background: white;
+  fill: #ef4036;
+}
+
+.myth-text {
+  color: #272727;
+  font-size: 48px;
 }
 
 .fact {
   background: #33cc99;
+  border-radius: 25px;
+}
+
+.fact-icon {
+  background: white;
+  fill: #33cc99;
+}
+
+.fact-text {
+  color: #272727;
+  font-size: 48px;
 }
 
 #cookie-notice {
@@ -54,3 +77,9 @@
     bottom: 4px;
   }
 }
+
+.center-center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
