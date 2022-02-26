@@ -12,7 +12,7 @@ ruby RUBY_VERSION
 gem "jekyll", "3.6.3"
 
 # Added nokogiri here as its a dependency of jekyll-inline-svg
-gem "nokogiri", "1.10.9"
+gem "nokogiri", "1.13.2"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.0"
